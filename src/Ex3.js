@@ -15,16 +15,10 @@ function Name1() {
 // export default Name1;
 
 const Name2 = () => {
-    var array=['g@naver.com', '010-898-8989'];
-    let arrays=array.map((item) => <p>{item}</p>)
-    return ( 
-        arrays
-        // <p>
-        //     <ul>
-        //         <li>g@naver.com</li>
-        //         <li>010-232-3232</li>
-        //     </ul>
-        // </p>
+    var array = ['g@naver.com', '010-898-8989'];
+    let arrays = array.map((item) => <p>{item}</p>)
+    return (
+        <div>{arrays}</div>
     );
 }
 
